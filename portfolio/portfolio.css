@@ -1,0 +1,162 @@
+body{
+	background-color: #9a9df9;
+	font-family:'Verdana';
+	font-weight: lighter;
+	font-size: 14px;
+	color: #170456;
+	margin: 0px;
+}
+
+header{
+	display: flex;
+	background: #7e82f6;
+	height: 110px;
+	width: auto;
+	align-items: center;
+}
+
+header img {
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 90px;
+	display: flex;
+}
+
+.head {
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+	margin-bottom: 5px;
+}
+
+article {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.gallery {
+	display: flex;
+	flex-flow: row wrap;
+	flex-wrap: wrap; 
+	padding-left: 40px;
+	padding-bottom: 40px;
+	font-family:'Calibri';
+	
+}
+
+.gallery div {
+	margin-right: 40px;
+	margin-bottom: 50px;
+	height: 300px;
+	width: 400px;
+	flex: auto;
+	align-items: flex-start;
+
+}
+
+.gallery div img {
+	height: 100%;
+}
+
+.gallery img:hover { 
+	display: block;
+	border: 5px solid #4e53e9;
+	transform: scale(1.2);
+	margin-bottom: 30px;
+}
+
+.card {
+	display:flex;
+	flex-direction: column;
+	padding-top: 60px;
+}
+
+.card:hover >  { 
+	display: block; 
+	transform: scale(1.2); 
+	margin-top: 30px;
+}
+
+.description {
+	display: block;	
+	text-align: center;	
+	margin-top: 15px;
+}
+
+figcaption {
+	font-family: 'Georgia';
+	font-weight: bold;
+}
+
+
+a.puncts {
+	margin: 0 25px;
+	align-items: center;
+	font-size: 14px;
+}
+
+footer{
+	background-color: #7e82f6;
+	font-size: 15px;
+	justify-content:space-between;
+	text-align: center;
+}
+
+.basement {
+	padding: 0px;
+	display: flex;
+	justify-content:center;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.basement div img {
+	width: 30px;
+	flex-direction: row;
+	margin-top: 10px;	
+}
+
+.acc {
+	flex-direction: column;	
+	margin-right: 60px;
+	margin-top: 5px;
+}
+
+.mail {
+	flex-direction: column;	
+	align-items: center;	
+	margin-right: 60px;
+}
+
+.teleg {
+	flex-direction: column;	
+	align-items: center;
+	margin-right: 60px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding-left: 130px;
+}
+
+h3 {
+	font-size: 13px;
+	text-align: center;
+	padding-right: 80px;
+	padding-top: 5px;
+}
+
+h4 {
+	margin-top: 5px;
+	font-size: 10px;
+}
